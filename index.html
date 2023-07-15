@@ -10,13 +10,31 @@
 
 <body>
     <div class="container">
-        <div>
-            <p>Celcius</p><input type="number" name="celcius" class="input-num">
+
+        <div class="title">
+            <h1>Temperature Converter</h1>
+            <span class="Temperature-icon"><i class="fa-solid fa-temperature-three-quarters"></i></span>
         </div>
-        <div>
-            <p>Farenheit</p><input type="number" name="farenheit" class="input-num">
+
+        <div id="celsius">
+            <input type="number" name="" placeholder="Celsius">
+            <span class="icon">&#8451</span>
         </div>
+        <div id="fahrenheit">
+            <input type="number" name="" placeholder="Fahrenheit">
+            <span class="icon">&#8457</span>
+        </div>
+        <div id="kelvin">
+            <input type="number" name="" placeholder="Kelvin">
+            <span class="icon">&#8490</span>
+        </div>
+        
+        <div class="button">
+            <button>Clear Fields</button>
+        </div>
+        
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
