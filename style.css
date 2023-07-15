@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
+    height: 100dvh;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-flow: row wrap;
+    text-align: center;
+    border-radius: 5px;
+    height: 200px;
+    width: 60%;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgb(171, 254, 255) 0%, rgb(57, 158, 252) 100%);
+}
+.input-num{
+    border: none;
+    background-color:aquamarine;
+    color: aliceblue;
+    border-radius: 5px;
+    width: 50%;
+    height: 30%;
+    font-size: 25px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.container>div{
+    height: 70%;
+    width: 50%;
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+}
